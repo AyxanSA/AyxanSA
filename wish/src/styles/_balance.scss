@@ -1,0 +1,12 @@
+#balance{
+    padding: 60px 0;
+    .balance-container{
+        display: flex;
+        justify-content: space-between;
+
+        .wish-item{
+            width: calc(100% / 3 - 20px);
+        }
+        
+    }
+}

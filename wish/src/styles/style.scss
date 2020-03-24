@@ -1,0 +1,45 @@
+@import "~font-awesome/css/font-awesome.css";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
+@import "vendors/bootstrap";
+@import "molecules/sprite";
+@import "./header.scss";
+@import "./main.scss";
+@import "./colums.scss";
+@import "./footer.scss";
+@import "./balance";
+
+
+//Section
+@import "section/wishes";
+
+//Section-singlle-item
+@import "section-single-item/wish-item";
+@import "section-single-item/card";
+
+
+
+
+
+
+
+
+* {
+  font-family: "Inter";
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f7f7f7;
+}

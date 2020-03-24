@@ -1,0 +1,36 @@
+#wishes{
+    .card-holder{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       .card{
+        width: calc(100% / 4 - 20px);
+        margin-bottom: 50px;
+       }
+    }
+    .more {
+        display: flex;
+        justify-content: center;
+        .bottomButton {   
+            padding: 0 30px;
+            border-radius: 40px;
+            border: solid 5px #03c3a4;
+            background-color: #03c3a4;
+            overflow: hidden;
+            transition: .5s;
+            &:hover {
+                border-color:  #f1f7f6be;
+            }
+            a {
+              display: block;
+              text-align: center;
+              padding: 10px;
+              text-decoration: none;
+              color: #ffffff;
+              font-size: 1.6em;
+            }
+          }
+      }
+      
+      
+}

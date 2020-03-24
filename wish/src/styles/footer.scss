@@ -1,0 +1,29 @@
+footer{
+    padding-top: 200px;
+    .container{
+        border-top: 1px solid #a8a8a8;
+        .footerLogo{
+            display: block;
+            padding: 30px 0;
+            svg{
+                path{
+                    fill: #a8a8a8;
+                }
+            }
+        }
+        .footerList{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: calc(100% - 200px);
+            a{
+                padding-top: 10px;
+                color: #a8a8a8;
+                
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
